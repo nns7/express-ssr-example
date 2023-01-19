@@ -23,6 +23,7 @@ const pageHtml = `
     </head>
     <body>
         <div id="react-root">${reactComponent}</div>
+        <script defer="defer" src="client.js"></script>
     </body>
 </html>
 `;
